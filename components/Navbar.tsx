@@ -30,12 +30,6 @@ export default function Navbar() {
               Experience
             </a>
           </li>
-
-          <li>
-            <a href="#contact" className="transition hover:text-white">
-              Contact
-            </a>
-          </li>
         </ul>
       </nav>
     </header>
