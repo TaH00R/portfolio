@@ -8,7 +8,7 @@ export default function Navbar() {
           href="#"
           className="font-mono text-lg font-semibold tracking-wide transition hover:text-white"
         >
-          {"<Tahoor />"}
+          {"<TaHooR/>"}
         </a>
 
         {/* Links */}

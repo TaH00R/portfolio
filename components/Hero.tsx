@@ -1,72 +1,71 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FiDownload } from "react-icons/fi";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaFileAlt,
+} from "react-icons/fa";
 
 export default function Hero() {
   return (
     <section
       id="about"
-      className="mx-auto flex min-h-screen max-w-6xl items-center px-6 pt-16"
+      className="mx-auto max-w-5xl px-6 pt-28"
     >
-      <div className="grid w-full items-center gap-16 md:grid-cols-2">
+      <div className="flex items-start gap-8">
 
-        {/* Left Side */}
-        <div className="space-y-6">
+        {/* Profile Picture */}
 
-          <p className="font-mono text-sm text-zinc-500">
-            COMPUTER SCIENCE STUDENT
-          </p>
+        <img
+          src="/profile.png"
+          alt="Profile"
+          className="h-24 w-24 rounded-full border border-zinc-700 object-cover"
+        />
 
-          <h1 className="text-5xl font-bold leading-tight md:text-7xl">
-            Hi, I'm{" "}
-            <span className="text-white">
-              Tahoor
-            </span>
+        {/* Info */}
+
+        <div className="space-y-4">
+
+          <h1 className="font-mono text-6xl font-bold tracking-tight">
+            tahoor
           </h1>
 
-          <p className="max-w-xl text-lg leading-8 text-zinc-400">
-            I enjoy building modern web experiences,
-            beautiful Flutter applications, and interactive
-            Three.js projects. I love open source and creating
-            things that people enjoy using.
+          <p className="font-mono text-sm text-zinc-400">
+            computer science @ iiit guwahati
           </p>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-6 font-mono text-sm">
 
             <a
               href="#"
-              className="rounded-lg border border-zinc-700 px-5 py-3 transition hover:border-white"
+              className="flex items-center gap-2 text-zinc-300 transition hover:text-white"
             >
-              <FaGithub size={22} />
+              <FaFileAlt />
+              resume
             </a>
 
             <a
               href="#"
-              className="rounded-lg border border-zinc-700 px-5 py-3 transition hover:border-white"
+              className="flex items-center gap-2 text-zinc-300 transition hover:text-white"
             >
-              <FaLinkedin size={22} />
+              <FaGithub />
+              github
             </a>
 
             <a
               href="#"
-              className="flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-medium text-black transition hover:scale-105"
+              className="flex items-center gap-2 text-zinc-300 transition hover:text-white"
             >
-              <FiDownload />
-              Resume
+              <FaLinkedin />
+              linkedin
             </a>
 
-          </div>
-
-        </div>
-
-        {/* Right Side */}
-
-        <div className="flex justify-center">
-
-          <div className="flex h-80 w-80 items-center justify-center rounded-full border border-zinc-800 bg-zinc-900">
-
-            <span className="text-7xl">
-              👤
-            </span>
+            <a
+              href="#"
+              className="flex items-center gap-2 text-zinc-300 transition hover:text-white"
+            >
+              <FaEnvelope />
+              email
+            </a>
 
           </div>
 
