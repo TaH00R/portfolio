@@ -4,6 +4,7 @@ import GithubActivity from "@/components/GithubActivity";
 import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         <Projects />
 
         <Experience />
+
+        <Footer />s
       </main>
     </>
   );
