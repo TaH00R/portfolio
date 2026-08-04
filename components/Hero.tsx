@@ -1,3 +1,4 @@
+import { BASE } from "@/data/projects";
 import {
   FaGithub,
   FaLinkedin,
@@ -16,10 +17,10 @@ export default function Hero() {
         {/* Profile Picture */}
 
         <img
-          src="/profile.png"
-          alt="Profile"
-          className="h-24 w-24 rounded-full border border-zinc-700 object-cover"
-        />
+  src={`${BASE}/profile.png`}
+  alt="Profile"
+  className="h-24 w-24 rounded-full border border-zinc-700 object-cover"
+/>
 
         {/* Info */}
 
