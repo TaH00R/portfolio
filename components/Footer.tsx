@@ -22,9 +22,9 @@ export default function Footer() {
           </a>
 
           <a
-            href="YOUR_LINKEDIN"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/x-tahoor-x-36652739a/"
+              target="_blank"
+              rel="noopener noreferrer"
             className="flex items-center gap-2 text-zinc-400 transition hover:text-white"
           >
             <FaLinkedin />
@@ -32,7 +32,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:YOUR_EMAIL"
+             href="mailto:mohammad.tahoor25b@iiitg.ac.in"
             className="flex items-center gap-2 text-zinc-400 transition hover:text-white"
           >
             <FaEnvelope />

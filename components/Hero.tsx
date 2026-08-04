@@ -44,7 +44,9 @@ export default function Hero() {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/TaH00R"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-zinc-300 transition hover:text-white"
             >
               <FaGithub />
@@ -52,7 +54,9 @@ export default function Hero() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/x-tahoor-x-36652739a/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-zinc-300 transition hover:text-white"
             >
               <FaLinkedin />
@@ -60,7 +64,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="#"
+              href="mailto:mohammad.tahoor25b@iiitg.ac.in"
               className="flex items-center gap-2 text-zinc-300 transition hover:text-white"
             >
               <FaEnvelope />
