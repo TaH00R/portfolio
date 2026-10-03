@@ -1,8 +1,5 @@
 // lib/basePath.ts
-export const BASE =
-  process.env.NODE_ENV === "production"
-    ? "/portfolio"
-    : "";
+export const BASE = "";
 
 export const projects = [
   {
