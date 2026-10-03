@@ -6,6 +6,13 @@ export const BASE =
 
 export const projects = [
   {
+    title: "ReliefChain",
+    description: "A blockchain-based solution for tracking and managing relief supplies.",
+    image: `${BASE}/projects/reliefchain.png`,
+    tags: ["Blockchain", "TypeScript", "Flutter"],
+    github: "https://github.com/kensh1ken/ReliefChain",
+  },
+  {
     title: "ISS Tracker",
     description: "Real-time ISS tracking using Three.js and satellite.js.",
     image: `${BASE}/projects/iss.png`,
